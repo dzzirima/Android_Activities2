@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".DetailsActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="169dp"
+        android:layout_height="27dp"
+        android:text="Completed Task 3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <TextView
+        android:id="@+id/exTitle"
+        android:layout_width="96dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="Weght Lifting"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/exImage"
+        android:layout_width="383dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exTitle"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/imga1"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="complete task"
+        app:layout_constraintTop_toBottomOf="@+id/exImage"
+        tools:layout_editor_absoluteX="83dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="169dp"
+        android:layout_height="38dp"
+
+        android:layout_marginTop="10dp"
+        android:text="Completed task 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="169dp"
+        android:layout_height="27dp"
+        android:text="Completed task 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
